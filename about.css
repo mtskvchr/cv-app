@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+}
+
+body {
+  background-color: #F3F3F3;
+  width: 1120px;
+  margin: 100px auto 100px auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+header h2 {
+  color: #181717;
+  font-family: 500 50px DM Sans;
+
+}
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+}
+
+nav p {
+  color: #181717;
+  font: 500 22px DM Sans;
+
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.about .info h1 {
+  color: #181717;
+  font: 500 60px DM Sans;
+}
+
+.about .info p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 575px;
+  color: #606060;
+  font: 400 24px DM Sans;
+}
+
+.about .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about .img {
+  width: 457px;
+  height: 405px;
+  background-color: #606060;
+}
+
+.about .skils {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 600px;
+  margin-top: 70px;
+}
+
+.about .skils h4 {
+  color: #181717;
+  font: 500 22px DM Sans;
+  text-decoration-line: underline;
+}
+
+.about .skils p {
+  color: #181717;
+  font: 400 20px DM Sans;
+}
+
+.about .skils .hs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about .skils .ss {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 85px;
+}
+
+.about .skils p {
+  width: 400px;
+}
+
+.about .line {
+  background-color: #181717;
+  width: 1120px;
+  height: 2px;
+  margin-top: 110px;
+}
+
+.mail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.mail h3 {
+  color: #181717;
+  font:400 32px DM Sans;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 135px;
+}
+
+.footer .name p {
+color: #2429AF;
+font:500 22px DM Sans;
+}
+
+.footer .link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer .link p {
+color: #181717;
+font:500 22px DM Sans;
+}
